@@ -47,8 +47,11 @@ public class Account {
     }
     if(Character.isDigit(element)) {
     digitStat = true;	
+    }
+    if(Character.isJavaIdentifierPart(element)) {
+    specialChar = true;
     }}
-    if(Password.length()>=8&&upperCase==true&&digitStat==true) {
+    if(Password.length()>=8&&upperCase==true&&digitStat==true&&specialChar==true) {
     return true;	
     }
 	return false;

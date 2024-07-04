@@ -9,7 +9,7 @@ public class TestClass {
 	    String FirstName = scanner.next();
 	    System.out.print("Enter last name: ");
 	    String LastName = scanner.next();
-	    System.out.print("Create username:");
+	    System.out.print("Create username: ");
 	    String UserName = scanner.next();
 	    System.out.print("Create password: ");
 	    String password = scanner.next();
@@ -23,16 +23,4 @@ public class TestClass {
         acc.registerUser();
         acc.LoginUser();
         acc.returnLoginStatus();
-		/*String TestID = "Okuhle";
-		char [] words = TestID.toCharArray();
-		int index = words.length-3;
-		for(int x = 0;x<2;x++) {
-		char FirstTwoLetters = words[x];
-		System.out.print(FirstTwoLetters);
-		}
-		for(int i=index;i<words.length;i++) {
-		char TestId = words[i];
-		System.out.print(TestId);
-		}
-		System.out.println();*/
 }}
